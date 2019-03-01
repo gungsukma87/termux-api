@@ -45,7 +45,7 @@ public class SmsInboxAPI {
 
             c.moveToLast();
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd kk:mm");
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
             Map<String, String> nameCache = new HashMap<>();
 
             out.beginArray();
